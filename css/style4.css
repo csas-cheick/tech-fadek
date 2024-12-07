@@ -1,0 +1,67 @@
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f1c40f;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+button{
+    margin-right: 20px;
+}
+#conn{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.bg-dark-purple {
+    background-color: #341a4b;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header .text-center p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+.phrase {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa;
+    background: linear-gradient(90deg, #835c8f, #897f97);
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+

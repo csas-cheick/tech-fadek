@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH-COMMANDE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style7.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">TECH-FADEK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Produits.html">Produits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html">À propos</a></li>
+                </ul>
+                <button class="btn btn-warning ms-auto"><a class="n" href="connexion.html" id="val">Connexion</a></button>
+            </div>
+        </div>
+        <div class="bnn">
+                <!-- Autres éléments du menu -->
+                <a href="commande.html" class="btn btn-warning" id="view-cart">🛒</a> 
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h1 class="mb-4 text-center">Passer la commande</h1>
+        <form id="commande-form">
+            <!-- Section Informations personnelles -->
+            <fieldset class="mb-4">
+                <legend>Informations personnelles</legend>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nom complet</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Votre nom complet" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Adresse e-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Votre e-mail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Numéro de téléphone</label>
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Votre numéro de téléphone" required>
+                </div>
+            </fieldset>
+
+            <!-- Section Adresse -->
+            <fieldset class="mb-4">
+                <legend>Adresse de livraison</legend>
+                <div class="mb-3">
+                    <label for="address" class="form-label">Adresse complète</label>
+                    <input type="text" class="form-control" id="address" name="address" placeholder="Votre adresse complète" required>
+                </div>
+                <div class="mb-3">
+                    <label for="city" class="form-label">Ville</label>
+                    <input type="text" class="form-control" id="city" name="city" placeholder="Votre ville" required>
+                </div>
+                <div class="mb-3">
+                    <label for="postal" class="form-label">Code postal</label>
+                    <input type="text" class="form-control" id="postal" name="postal" placeholder="Code postal" required>
+                </div>
+            </fieldset>
+
+            <!-- Section Récapitulatif -->
+            <fieldset class="mb-4">
+                <legend>Récapitulatif de la commande</legend>
+                <ul id="cart-summary" class="list-group">
+                    <!-- Les articles du panier seront ajoutés ici -->
+                </ul>
+                <p class="mt-3 text-end"><strong>Total : <span id="cart-total">0</span> FCFA</strong></p>
+            </fieldset>
+
+            <!-- Bouton de soumission -->
+            <button type="submit" class="btn btn-primary w-100">Valider la commande</button>
+        </form>
+    </div>
+    <!-- Section Contacts -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h3>Contactez-nous</h3>
+            <p>Téléphone : <strong>22780535345 / 22790177018</strong></p>
+        
+            <!-- Icônes de réseaux sociaux -->
+            <div class="social-icons">
+                <a href="#" class="me-3 text-white"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="me-3 text-white"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="me-3 text-white"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Tech-Fadek. Tous droits réservés.</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script6.js"></script>
+</body>
+</html>

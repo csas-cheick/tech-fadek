@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #16051d;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+
+    background-color: #fff;
+}
+.bg-primary {
+    background-color: #330b3f !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f1c40f;
+}
+
+button {
+    font-size: 1.2rem;
+
+}
+#val{
+    text-decoration: none;
+    color: black;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}

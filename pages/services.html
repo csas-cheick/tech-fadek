@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH-SERVICES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style3.css">
+</head>
+<body>
+
+       <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark-purple">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">TECH-FADAK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Produits.html">Produits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html">À propos</a></li>
+                </ul>
+                <button class="btn btn-warning ms-3">Connexion</button>
+            </div>
+            <div class="bnn">
+                <!-- Autres éléments du menu -->
+                <a href="commande.html" class="btn btn-warning" id="view-cart">🛒</a> 
+        </div>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Service PFE -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="../images/pfe.jpg" class="card-img-top" alt="PFE Service">
+                    <div class="card-body">
+                        <h5 class="card-title">Elaboration de Documents pour PFE</h5>
+                        <p class="card-text">Nous aidons les étudiants à élaborer des projets de fin d'études (PFE) structurés et professionnels, adaptés à leur domaine d’étude.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPFE">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Exposés -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="../images/exposé.jpg" class="card-img-top" alt="Exposés Service">
+                    <div class="card-body">
+                        <h5 class="card-title">Elaboration d'Exposés pour Élèves</h5>
+                        <p class="card-text">Nous offrons un accompagnement personnalisé pour la préparation d'exposés pour les élèves du secondaire, du 6ème à la Terminale.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalExpose">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Maintenance -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../images/reparation.jpg" class="card-img-top" alt="Maintenance Service">
+                    <div class="card-body">
+                        <h5 class="card-title">Maintenance des Ordinateurs et Téléphones</h5>
+                        <p class="card-text">Nous offrons des services de maintenance pour les ordinateurs et téléphones, y compris la réparation, l'entretien et l'optimisation des performances.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMaintenance">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="../images/telechargement.jpg" class="card-img-top" alt="Téléchargement de Films et Sons">
+                    <div class="card-body">
+                        <h5 class="card-title">Téléchargement de Films et Sons</h5>
+                        <p class="card-text">Accédez à une vaste bibliothèque de films et de sons à télécharger en toute sécurité et de manière légale pour votre usage personnel ou professionnel.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTelechargement">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="../images/photocopie.jpg" class="card-img-top" alt="Service Photocopie">
+                    <div class="card-body">
+                        <h5 class="card-title">Service Photocopie</h5>
+                        <p class="card-text">Nous offrons des services complets de photocopie incluant l'impression, la saisie, la relecture et la plastification de vos documents. Que ce soit pour un usage professionnel ou académique, nous avons la solution adaptée.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPhotocopie">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modale pour le PFE -->
+    <div class="modal fade" id="modalPFE" tabindex="-1" aria-labelledby="modalPFELabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalPFELabel">Elaboration de Documents pour PFE</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Nous proposons un accompagnement complet dans la rédaction de vos Projets de Fin d'Études : recherche documentaire, rédaction des différentes parties (introduction, méthodologie, analyse, conclusion), et mise en page professionnelle.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Contactez-nous</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modale pour les Exposés -->
+    <div class="modal fade" id="modalExpose" tabindex="-1" aria-labelledby="modalExposeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalExposeLabel">Elaboration d'Exposés pour Élèves</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Nous accompagnons les élèves dans la préparation de leurs exposés en fournissant des informations pertinentes, en les aidant à structurer leur présentation, et en les guidant sur les techniques de présentation orale.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Contactez-nous</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTelechargement" tabindex="-1" aria-labelledby="modalTelechargementLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTelechargementLabel">Téléchargement de Films et Sons</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Nous vous offrons une plateforme pour télécharger des films et des sons de manière sécurisée et rapide. Vous pouvez choisir parmi une large sélection de contenus multimédia pour enrichir votre expérience personnelle ou professionnelle</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Contactez-nous</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modale pour le Service Photocopie -->
+    <div class="modal fade" id="modalPhotocopie" tabindex="-1" aria-labelledby="modalPhotocopieLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalPhotocopieLabel">Service Photocopie</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Nous proposons une gamme complète de services de photocopie, incluant l'impression, la saisie de texte, la relecture et la plastification des documents. Ce service est idéal pour les étudiants, les professionnels et toute personne nécessitant une gestion efficace de leurs documents.</p>
+                    <p>Nous garantissons la qualité et la rapidité de nos services à des prix compétitifs.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Contactez-nous</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Footer -->
+    <footer class="footer bg-dark-purple text-center text-white py-4">
+        <div class="container">
+            <p>Contactez-nous</p>
+            <p>Téléphone: <strong>22780535345 / 22790177018</strong></p>
+            <div class="social-icons">
+                <a href="#" class="me-3 text-white"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="me-3 text-white"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="me-3 text-white"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Tech-Fadek. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script3.js"></script>
+</body>
+</html>
