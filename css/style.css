@@ -121,3 +121,9 @@ header .btn {
     gap: 20px; /* Espace entre les cartes */
     justify-content: center; /* Aligne les cartes au centre */
 }
+
+.product-card img {
+    max-height: 300px; /* Limite la hauteur des images */
+    object-fit: cover; /* Évite les distorsions */
+    border-radius: 5px; /* Coins arrondis */
+}
