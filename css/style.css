@@ -122,9 +122,8 @@ header .btn {
     justify-content: center; /* Aligne les cartes au centre */
 }
 
-.product-card img {
-    max-height: 300px; /* Limite la hauteur pour uniformiser les cartes */
-    object-fit: contain; /* Ajuste l'image pour qu'elle soit entièrement visible */
-    border-radius: 5px; /* Ajoute des coins arrondis */
-    background-color: #f8f8f8; /* Ajoute un fond blanc si l'image n'occupe pas tout l'espace */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
 }
