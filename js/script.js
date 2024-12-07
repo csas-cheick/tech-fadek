@@ -1,7 +1,7 @@
 // Liste des images d'arrière-plan
 const backgroundImages = [
-    "/images/hero-bg2.png",
-    "/images/hero-bg.jpg"
+    "images/hero-bg2.png",
+    "images/hero-bg.jpg"
 ];
 
 let currentBgIndex = 0;
