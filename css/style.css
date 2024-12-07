@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
 }
 
+
 .navbar-brand {
     font-weight: bold;
     font-size: 1.5rem;
@@ -11,6 +12,7 @@ body {
 .n{
     text-decoration: none;
     color: #000;
+    margin-right: 20px;
 }
 
 header h1 {
