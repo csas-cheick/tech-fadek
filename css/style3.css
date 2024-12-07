@@ -60,4 +60,6 @@ header .text-center p {
     transition: transform 0.3s ease;
 }
 
-
+.contener h1, .contener p {
+    text-align: justify;
+}
