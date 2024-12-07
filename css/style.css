@@ -54,17 +54,6 @@ header .btn {
     background-image: url('../images/hero-bg.jpg');
 }
 
-
-
-/*.hero-section {
-    position: relative;
-    background-image: url('../images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    color: white; 
-}*/
-
 .hero-section::after {
     content: '';
     position: absolute;
@@ -107,6 +96,7 @@ header .btn {
 .card {
     margin: 5px;
     flex: 1 1 calc(25% - 30px); /* S'assure que les cartes s'adaptent au contenu */
+    height: 450px;
 }
 
 /* Animation au survol des cartes */
