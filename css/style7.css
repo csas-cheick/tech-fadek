@@ -7,6 +7,10 @@ h1 {
     color: #16051d;
 }
 
+.n{
+    text-decoration: none;
+    color: #000;
+}
 fieldset {
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -42,4 +46,7 @@ button {
 .navbar-brand {
     font-weight: bold;
     font-size: 1.5rem;
+}
+#bbu{
+    margin-right: 20px;
 }
